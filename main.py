@@ -6,4 +6,4 @@ main = Flask(__name__)
 def home_page():
     return render_template('gradient.html')
 if __name__ == '__main__':
-   main.run()
+   main.run(host='0.0.0.0')
